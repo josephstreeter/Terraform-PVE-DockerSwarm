@@ -1,0 +1,12 @@
+PM_API_TOKEN_SECRET = "360c616e-ad16-45b6-a000-1bf48eedba22"
+PM_API_TOKEN_ID = "root@pam!terraform"
+PROXMOX_IP = "192.168.0.198"
+TARGET_NODES = ["FR-VH-02"]
+template = "jammy-tpl"
+admin_password = "iw2slep!"
+admin_user = "hades"
+ipv4_gateway = "192.168.0.1"
+public_key_file = "~/.ssh/id_rsa_ado.pub"
+private_key_file = "~/.ssh/id_rsa_ado"
+docker_manager_count = 1
+docker_worker_count = 2
